@@ -28,7 +28,3 @@ if __name__ == "__main__":
     message = greet(user_name)
     print(message)
 ```
-
----
-
-*Создано в рамках курса по информатике*
