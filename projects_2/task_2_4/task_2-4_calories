@@ -1,0 +1,12 @@
+protein = input("Масса белков в продукте: ")
+fats = input("Масса жиров в продукте:")
+carbohydrates = input("Масса углеводов в продукте:")
+# Преобразуем строку в целое число
+pro = int(protein)
+fa = int(fats)
+car = int(carbohydrates)
+
+# Вычисляем квадрат числа
+Cal = ((pro*4)+(fa*9)+(car*4))
+
+print(f"Калорийность:\t{Cal}")
