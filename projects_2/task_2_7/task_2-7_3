@@ -1,0 +1,8 @@
+seq = ["ATATACGCGTA", "CTTCGGNGGA"]
+
+for se in seq:
+    print(se)
+    for nuc in se:
+        print(nuc, "\n")
+
+print("Цикл выполнен")
