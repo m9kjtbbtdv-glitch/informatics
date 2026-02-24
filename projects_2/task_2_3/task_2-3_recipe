@@ -1,0 +1,10 @@
+name = input("Введите название питательной среды: ")
+conc = input("Введите концентрацию агара (%): ")
+temp = input("Введите температуру стерилизации (°C): ")
+
+with open("recipe.txt", "w", encoding="utf-8") as recipe:
+    recipe.write(f"{name}\n")
+    recipe.write(f"- Концентрация агара: {conc}%\n")
+    recipe.write(f"- Температура стерилизации: {temp}°C\n")
+
+print("Файл 'recipe.txt' успешно сформирован!")
