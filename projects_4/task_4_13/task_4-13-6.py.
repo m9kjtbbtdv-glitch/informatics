@@ -1,0 +1,8 @@
+N = int(input("Введите число N: "))
+
+summ = 0
+
+for i in range(1, N+1):
+    summ = summ + i*i
+
+print("Сумма квадратов первых N натуральных чисел:", summ)
